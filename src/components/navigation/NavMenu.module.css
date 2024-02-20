@@ -1,0 +1,23 @@
+.navlist {
+  list-style: none;
+  font-weight: 700;
+  padding-left: 0;
+}
+
+.navWrapper {
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.navListItem {
+  color: red;
+}
+
+
+.arrowImg {
+  width: 8px;
+  height: 4px;
+  margin-left: 16px;
+}

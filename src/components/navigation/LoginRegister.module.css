@@ -1,0 +1,23 @@
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.button {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: inherit;
+  padding: 13px 0;
+  width: 100%;
+  background: #fff;
+  border: 2px solid var(--medium-gray);
+  border-radius: 20px;
+  color: var(--medium-gray);
+}
+
+.loginButton {
+  border: none;
+}

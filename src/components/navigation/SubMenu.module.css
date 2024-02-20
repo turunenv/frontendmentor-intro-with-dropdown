@@ -1,0 +1,19 @@
+.submenu {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 23px;
+}
+
+.submenuItem {
+  margin: 8px 0;
+  padding: 2px 0 4px 0;
+}
+
+.submenuItem:last-child {
+  margin-bottom: 16px;
+}
+
+.submenuImg {
+  margin-right: 16px;
+}
+
