@@ -1,0 +1,9 @@
+.test {
+  background: aqua;
+}
+
+@media (max-width: 1000px) {
+  .test {
+    background: red;
+  }
+}
