@@ -19,8 +19,8 @@ export function NavWrapper() {
     width: 26,
     height: 26,
     alignSelf: 'flex-end',
-    border: 'none'
-  }
+    border: 'none',
+  };
 
   if (!navigationVisible) {
     return (
@@ -28,7 +28,7 @@ export function NavWrapper() {
         style={menuIconStyle}
         onClick={() => setNavigationVisible(true)}
       ></button>
-    )
+    );
   }
 
   return (
@@ -39,5 +39,5 @@ export function NavWrapper() {
       ></button>
       <NavBar />
     </div>
-  )
+  );
 }

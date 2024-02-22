@@ -14,7 +14,7 @@ for (const item of itemsWithSubmenu) {
 }
 
 export function NavMenu() {
-  console.log(initialSubMenuState)
+  console.log(initialSubMenuState);
   const [subMenusOpen, setSubMenusOpen] = useState(initialSubMenuState);
 
   function getSubMenuClickHandler(key: string) {
@@ -48,12 +48,12 @@ export function NavMenu() {
               />
             )}
           </div>
-          {menuItem.subMenu &&
-            <SubMenu 
+          {menuItem.subMenu && (
+            <SubMenu
               visible={subMenusOpen[menuItem.title]}
               navItems={menuItem.subMenu}
             />
-          }
+          )}
         </li>
       ))}
     </ul>

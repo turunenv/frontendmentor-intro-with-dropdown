@@ -12,24 +12,14 @@ export function SubMenu({ visible, navItems }: Props) {
     <ul className={styles.submenu}>
       {navItems.map((item) => {
         return (
-          <li 
-            key={item.title}
-            className={styles.submenuItem}
-          >
-            {item.iconUrl &&
-              <img 
-                src={item.iconUrl}
-                className={styles.submenuImg}  
-              />
-            }
-            <span
-              className={styles.submenuTitle}
-            >
-              {item.title}
-            </span>
+          <li key={item.title} className={styles.submenuItem}>
+            {item.iconUrl && (
+              <img src={item.iconUrl} className={styles.submenuImg} />
+            )}
+            <span className={styles.submenuTitle}>{item.title}</span>
           </li>
-        )
+        );
       })}
     </ul>
-  )
+  );
 }

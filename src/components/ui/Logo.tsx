@@ -4,7 +4,7 @@ import styles from './Logo.module.css';
 export function Logo() {
   return (
     <div className={styles.logo}>
-      <img src={logoUrl} alt="The logo of snap" />
+      <img src={logoUrl} alt='The logo of snap' />
     </div>
-  )
+  );
 }

@@ -4,10 +4,9 @@ import { LoginRegister } from './LoginRegister';
 
 export function NavBar() {
   return (
-    <nav 
-      className={styles.navbar}>
-        <NavMenu />
-        <LoginRegister />
+    <nav className={styles.navbar}>
+      <NavMenu />
+      <LoginRegister />
     </nav>
-  )
+  );
 }

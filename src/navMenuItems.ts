@@ -5,7 +5,6 @@ import iconTodoUrl from './assets/icon-todo.svg';
 import iconReminderUrl from './assets/icon-reminders.svg';
 import iconPlanningUrl from './assets/icon-planning.svg';
 
-
 export const navMenuItems: MenuItem[] = [
   {
     title: 'Features',
@@ -26,8 +25,8 @@ export const navMenuItems: MenuItem[] = [
       {
         title: 'Planning',
         iconUrl: iconPlanningUrl,
-      }
-    ]
+      },
+    ],
   },
   {
     title: 'Company',
@@ -38,11 +37,11 @@ export const navMenuItems: MenuItem[] = [
       },
       {
         title: 'Our Team',
-      }, 
+      },
       {
         title: 'Blog',
-      }
-    ]
+      },
+    ],
   },
   {
     title: 'Careers',

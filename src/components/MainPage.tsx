@@ -17,9 +17,7 @@ export function MainPage() {
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </p>
-        <button className={styles.button}>
-            Learn more
-        </button>
+        <button className={styles.button}>Learn more</button>
       </section>
     </main>
   );
