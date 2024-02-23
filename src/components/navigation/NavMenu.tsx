@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import styles from './NavMenu.module.css';
 import { SubMenu } from './SubMenu';
-import { navMenuItems } from '../../navMenuItems.ts';
+import { navMenuItems } from '../../content/navMenuItems.ts';
 import { MenuItem, SubMenuState } from './types.ts';
 
 const itemsWithSubmenu: MenuItem[] = navMenuItems.filter((navItem) => {
