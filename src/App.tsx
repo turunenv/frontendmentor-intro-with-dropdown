@@ -8,6 +8,11 @@ function App() {
   const [isDesktop, setIsDesktop] = useState(true);
   
   useEffect(() => {
+    //check window width on initial render
+    if (window.innerWidth <= 768) {
+      setIsDesktop(false);
+    }
+    //repeat the check on each resize event
     window.addEventListener('resize', () => {
       if (window.innerWidth <= 768) {
         setIsDesktop(false);
