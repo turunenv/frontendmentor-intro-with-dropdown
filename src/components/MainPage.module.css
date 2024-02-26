@@ -20,8 +20,14 @@
   margin-bottom: 0;
 }
 
+.heroImgWrapper {
+  display: flex;
+  justify-content: center;
+}
+
 .heroImg {
   width: 100%;
+  max-width: 480px;
 }
 
 .button {

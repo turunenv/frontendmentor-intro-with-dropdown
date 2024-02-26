@@ -4,7 +4,7 @@ import styles from './MainPage.module.css';
 export function MainPage() {
   return (
     <main>
-      <div>
+      <div className={styles.heroImgWrapper}>
         <img
           src={mobileHeroImgUrl}
           alt='a man working on his laptop'
