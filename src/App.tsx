@@ -6,7 +6,7 @@ import { useEffect, useState } from 'react';
 function App() {
   //this will be removed soon, once desktop layout is implemented
   const [isDesktop, setIsDesktop] = useState(true);
-  
+
   useEffect(() => {
     //check window width on initial render
     if (window.innerWidth <= 768) {
@@ -19,11 +19,15 @@ function App() {
       } else {
         setIsDesktop(true);
       }
-    })
-  }, [])
+    });
+  }, []);
 
   if (isDesktop) {
-    return <h1>The app can only be viewed on smaller screen sizes at this moment.</h1>
+    return (
+      <h1>
+        The app can only be viewed on smaller screen sizes at this moment.
+      </h1>
+    );
   }
 
   return (
