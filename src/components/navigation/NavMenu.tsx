@@ -14,7 +14,6 @@ for (const item of itemsWithSubmenu) {
 }
 
 export function NavMenu() {
-  console.log(initialSubMenuState);
   const [subMenusOpen, setSubMenusOpen] = useState(initialSubMenuState);
 
   function getSubMenuClickHandler(key: string) {
